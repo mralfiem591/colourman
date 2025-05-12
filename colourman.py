@@ -194,7 +194,7 @@ class ColourSyntax:
         else:
             print(text)
 
-    def input_tags(self, text: str, use_colours: bool = True, parse_input: bool = True) -> str:
+    def input_tags(self, text: str, use_colours: bool = True, parse_input: bool = False) -> str:
         # Find all tags like <BOLD RED> or <UNDERLINE GREEN>
         tags = re.findall(r'<(.*?)>', text)
         if use_colours:
