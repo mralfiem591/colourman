@@ -30,6 +30,12 @@ Parses a string with ANSI color codes and returns the formatted text.
 
 Returns a string containing all available tags and their corresponding ANSI codes.
 
+## Layout
+
+The data being parsed should be laid out with tags from `tags()`, like `<BOLD RED>`, `<UNDERLINE DIM RED BGGREED>`, `<RESET>`, and others.
+
+> Note that the colours will be auto reset at the end of a line, place the `<CONTINUE>` tag to stop this.
+
 ## API
 
 The `ColourSyntax` class provides the following attributes and methods:
