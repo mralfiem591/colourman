@@ -267,4 +267,4 @@ if __name__ == "__main__":
         print("COLOURMAN\nColourMan is a library made to help colour text by converting codes and presets into ANSI codes. Following is all the presets and codes:\n\n", colour_syntax.tags())
         time2 = datetime.datetime.now()
         elapsed_time = time2 - time
-        colour_syntax.print_text(f"\n\n<DARK WHITE>Generated data in {elapsed_time.microseconds // 1000:04} milliseconds")
+        colour_syntax.print_text(f"\n\n<DARK WHITE>Generated data in {elapsed_time.microseconds // 1000} milliseconds")
